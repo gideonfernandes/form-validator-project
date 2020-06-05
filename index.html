@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validador de Formulário</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Faça seu registro</h2>
+        <div class="form-control">
+          <label for="username">Nome</label>
+          <input type="text" id="username" placeholder="Digite seu nome">
+          <small>Mensagem de Erro</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu email">
+          <small>Mensagem de Erro</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha">
+          <small>Mensagem de Erro</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirmar Senha</label>
+          <input type="password" id="password2" placeholder="Digite sua senha novamente">
+          <small>Mensagem de Erro</small>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
